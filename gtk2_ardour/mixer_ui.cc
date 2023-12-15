@@ -345,6 +345,7 @@ Mixer_UI::Mixer_UI ()
 
 	vca_label_bar.set_size_request (-1, PX_SCALE(16)); /* must match height in GroupTabs::set_size_request()*/
 	vca_vpacker.pack_start (vca_label_bar, false, false);
+	vca_vpacker.pack_start (vca_hpacker, true, true);
 	vca_label_bar.set_name("VCALabelBar");
 
 	vca_scroller_base.add_events (Gdk::BUTTON_PRESS_MASK|Gdk::BUTTON_RELEASE_MASK);
@@ -352,15 +353,13 @@ Mixer_UI::Mixer_UI ()
 	vca_scroller_base.signal_button_release_event().connect (sigc::mem_fun(*this, &Mixer_UI::masters_scroller_button_release), false);
 
 	vca_hpacker.signal_scroll_event().connect (sigc::mem_fun (*this, &Mixer_UI::on_vca_scroll_event), false);
-	vca_scroller.add (vca_hpacker);
+	vca_scroller.add (vca_vpacker);
 	vca_scroller.set_policy (Gtk::POLICY_ALWAYS, Gtk::POLICY_AUTOMATIC);
 	vca_scroller.signal_button_press_event().connect (sigc::mem_fun(*this, &Mixer_UI::strip_scroller_button_event));
 	vca_scroller.signal_button_release_event().connect (sigc::mem_fun(*this, &Mixer_UI::strip_scroller_button_event));
 
-	vca_vpacker.pack_start (vca_scroller, true, true);
-
 	inner_pane.add (scroller);
-	inner_pane.add (vca_vpacker);
+	inner_pane.add (vca_scroller);
 
 	global_hpacker.pack_start (inner_pane, true, true);
 	global_hpacker.pack_start (out_packer, false, false);
@@ -4280,7 +4279,7 @@ Mixer_UI::screenshot (std::string const& filename)
 	strip_group_box.pack_start (strip_packer);
 	if (with_vca) {
 		vca_scroller_base.show();
-		vca_scroller.add (vca_hpacker);
+		vca_scroller.add (vca_vpacker);
 	}
 	if (master) {
 		master->hide_master_spacer (false);
