@@ -3221,7 +3221,7 @@ Mixer_UI::refiller (PluginInfoList& result, const PluginInfoList& plugs)
 			}
 		} else if (plm == PLM_SearchAll) {
 			maybe_show = false;
-			if (searchstr.length() > 2) {
+			if (!searchstr.empty()) {
 				/* check name */
 				std::string compstr = (*i)->name;
 				setup_search_string (compstr);
@@ -3363,6 +3363,9 @@ Mixer_UI::sync_treeview_from_favorite_order ()
 
 	favorite_plugins_model->clear ();
 	for (PluginInfoList::const_iterator i = plugin_list.begin(); i != plugin_list.end(); ++i) {
+		// Limit results to avoid lag
+		if (distance((PluginInfoList::const_iterator) plugin_list.begin(), i) > 20) return;
+
 		PluginInfoPtr pip = (*i);
 
 		TreeModel::Row newrow = *(favorite_plugins_model->append());
