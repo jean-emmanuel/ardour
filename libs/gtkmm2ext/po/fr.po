@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: gtkmm2ext\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-17 09:06+0100\n"
-"PO-Revision-Date: 2026-02-17 11:49+0100\n"
+"PO-Revision-Date: 2026-02-17 11:53+0100\n"
 "Last-Translator: Fred Rech <fred_rech@laposte.net>\n"
 "Language-Team: French <>\n"
 "Language: fr_FR\n"
@@ -123,11 +123,11 @@ msgstr "Option"
 
 #: keyboard.cc:100
 msgid "Middle Click (or Ctrl+Alt+Click)"
-msgstr "Clic du milieu (ou ctrl+alt+clic)"
+msgstr "Clic milieu (ou ctrl+alt+clic)"
 
 #: keyboard.cc:105
 msgid "Cmd+Click (or Middle-Click)"
-msgstr "Cmd+clic (or clic du milieu)"
+msgstr "Cmd+clic (or clic milieu)"
 
 #: keyboard.cc:110
 msgid "Cmd"
@@ -151,7 +151,7 @@ msgstr ""
 
 #: keyboard.cc:166 keyboard.cc:171
 msgid "Middle-Click"
-msgstr "Clic du milieu"
+msgstr "Clic milieu"
 
 #: keyboard.cc:191
 msgid "Win"
