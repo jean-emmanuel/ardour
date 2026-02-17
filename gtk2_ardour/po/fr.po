@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ardour 8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-17 09:06+0100\n"
+"POT-Creation-Date: 2026-02-17 22:26+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -2061,7 +2061,7 @@ msgstr "Métronome"
 #: editor_sections.cc:50 library_download_dialog.cc:55 lua_script_manager.cc:55
 #: lua_script_manager.cc:104 lua_script_manager.cc:145 midi_list_editor.cc:108
 #: playlist_selector.cc:64 plugin_manager_ui.cc:59 plugin_manager_ui.cc:117
-#: plugin_selector.cc:119 plugin_selector.cc:176 region_list_base.cc:154
+#: plugin_selector.cc:119 plugin_selector.cc:176 region_list_base.cc:156
 #: route_list_base.cc:152 session_metadata_dialog.cc:694
 #: strip_import_dialog.cc:197 strip_import_dialog.cc:221
 #: strip_import_dialog.cc:245 transport_masters_dialog.cc:80
@@ -2293,7 +2293,7 @@ msgstr "Surfaces de contrôle"
 
 #: ardour_ui_ed.cc:190 rc_option_editor.cc:4755
 msgid "Metering"
-msgstr "Mesure"
+msgstr "Indicateurs de mesure"
 
 #: ardour_ui_ed.cc:191
 msgid "Fall Off Rate"
@@ -7218,15 +7218,15 @@ msgstr ""
 "Import PT terminé !\n"
 "Voir le journal pour les détails"
 
-#: editor_canvas_events.cc:1140
+#: editor_canvas_events.cc:1144
 msgid "New Arrangement Marker"
 msgstr "Nouveau marqueur d'arrangement"
 
-#: editor_canvas_events.cc:1141
+#: editor_canvas_events.cc:1145
 msgid "Select Arrangement Section"
 msgstr "Sélectionner la section d'arrangement"
 
-#: editor_canvas_events.cc:1437 editor_drag.cc:1778
+#: editor_canvas_events.cc:1440 editor_drag.cc:1778
 msgid "Could not create new track after region placed in the drop zone"
 msgstr ""
 "Impossible de créer une nouvelle piste à partir de la région placée dans la "
@@ -8622,7 +8622,7 @@ msgid "# Region effects"
 msgstr "Nombre d'effets de région"
 
 #: editor_regions.cc:79 editor_sections.cc:59 midi_list_editor.cc:105
-#: region_list_base.cc:558 time_info_box.cc:86
+#: region_list_base.cc:577 time_info_box.cc:86
 msgid "Start"
 msgstr "Début"
 
@@ -8655,7 +8655,7 @@ msgid "Region opaque (blocks regions below it from being heard)?"
 msgstr "Région opaque (empêche les régions en dessous d'être entendues) ?"
 
 #: editor_regions.cc:97 editor_sections.cc:60 region_editor.cc:123
-#: region_list_base.cc:560 time_info_box.cc:93
+#: region_list_base.cc:579 time_info_box.cc:93
 msgid "End"
 msgstr "Fin"
 
@@ -10326,7 +10326,7 @@ msgstr "Atténuateur d'automation du gain"
 
 #: gain_meter.cc:173
 msgid "dBFS - Digital Peak Hold. Click to reset."
-msgstr "dBFS - Pic Digital Maintenu. Clic pour RàZ."
+msgstr "dBFS - Crête maintenue.Clic pour réinitialiser."
 
 #: gain_meter.cc:184
 msgid "Metering point"
@@ -12737,15 +12737,15 @@ msgstr "Hauteur : très grand"
 
 #: meter_patterns.cc:85
 msgid "Peak (+6dBFS)"
-msgstr "Pic (+6dBFS)"
+msgstr "Crête (+6dBFS)"
 
 #: meter_patterns.cc:88
 msgid "Peak (0dBFS)"
-msgstr "Pic (0dBFS)"
+msgstr "Crête (0dBFS)"
 
 #: meter_patterns.cc:91
 msgid "RMS + Peak"
-msgstr "RMS + Pic"
+msgstr "RMS + Crête"
 
 #: meter_patterns.cc:94
 msgid "IEC1/DIN"
@@ -13610,7 +13610,7 @@ msgid "Type"
 msgstr "Type"
 
 #: plugin_manager_ui.cc:61 plugin_manager_ui.cc:119 plugin_selector.cc:120
-#: plugin_selector.cc:180 region_list_base.cc:174
+#: plugin_selector.cc:180 region_list_base.cc:176
 msgid "Tags"
 msgstr "Étiquettes"
 
@@ -15631,7 +15631,7 @@ msgid ""
 "most blinking."
 msgstr ""
 "Si activées, désactive les compteurs dans l'éditeur et la console, la "
-"plupart des clignotements et limite les mises à jour de l'horloge pendant la "
+"plupart des clignotements et les mises à jour de l'horloge pendant la "
 "lecture."
 
 #: rc_option_editor.cc:2641 rc_option_editor.cc:2654
@@ -17718,15 +17718,12 @@ msgid ""
 msgstr ""
 "Pour faciliter la lecture et l'enregistrement vari-speed, l'audio est "
 "rééchantillonné pour modifier la hauteur et la vitesse. Cela introduit une "
-"latence qui dépend de la qualité. Pour des raisons de cohérence, cette "
-"latence est également présente lorsque la vitesse n'est pas variable (même "
-"si aucun rééchantillonnage n'a lieu).\n"
+"latence qui dépend de la qualité choisie. Pour des raisons de cohérence, "
+"cette latence est également présente lorsque la vitesse n'est pas variable "
+"(même si aucun rééchantillonnage n'a lieu).\n"
 "\n"
 "Il est possible de désactiver cette fonctionnalité, ce qui désactivera "
-"également la vitesse variable. - Sauf si le moteur audio fonctionne à une "
-"fréquence d'échantillonnage différente de celle de la session, la qualité "
-"est réglée au minimum sur \"Très élevée\" (latence aller-retour de 128 "
-"échantillons)."
+"également le vari-speed."
 
 #: rc_option_editor.cc:4602
 msgid "Default Track / Bus Muting Options"
@@ -17750,13 +17747,13 @@ msgstr "Muet affecte les sorties principales"
 
 #: rc_option_editor.cc:4637
 msgid "Send Routing"
-msgstr "Routage des départs"
+msgstr "Départs"
 
 #: rc_option_editor.cc:4641
 msgid "Link panners of Aux and External Sends with main panner by default"
 msgstr ""
-"Lier par défaut les panoramiques de départs auxiliaires et extérieurs au "
-"panoramique principal"
+"Lier par défaut les panoramiques de départs auxiliaires et extérieurs à la "
+"panoramique principale"
 
 #: rc_option_editor.cc:4646
 msgid "Audio Regions"
@@ -17768,12 +17765,12 @@ msgstr "Dupliquer les canaux manquants dans la région"
 
 #: rc_option_editor.cc:4657
 msgid "Track and Bus Connections"
-msgstr "Connexions piste et bus"
+msgstr "Connexions des pistes et bus"
 
 #: rc_option_editor.cc:4661
 msgid "Auto-connect main output (master or monitor) bus to physical ports"
 msgstr ""
-"Connexion automatique du bus de sortie principal (général ou écoute de "
+"Connexion automatique du bus de sortie principal (master ou écoute de "
 "contrôle) aux ports physiques"
 
 #: rc_option_editor.cc:4667
@@ -17783,10 +17780,10 @@ msgid ""
 "is connected to the hardware playback ports, otherwise the master-bus output "
 "is directly used for playback."
 msgstr ""
-"<b>Si coché</b>, le bus de sortie principal est auto-connecté aux N premiers "
-"ports physiques. Si la session comporte une section d'écoute de contrôle, "
-"son bus de sortie est connecté aux ports matériels d'écoute, sinon c'est la "
-"sortie du bus master qui est directement utilisée pour la lecture."
+"<b>Si coché</b>, le bus de sortie principal est connecté automatiquement aux "
+"N premiers ports physiques. Si la session comporte une section d'écoute de "
+"contrôle, sa sortie est connecté aux ports matériels d'écoute, sinon c'est "
+"la sortie du bus master qui est directement utilisée pour la lecture."
 
 # extraspace needed to get a space before the colon
 #: rc_option_editor.cc:4673
@@ -17820,7 +17817,7 @@ msgstr "\"E/S strictes\" pour les nouvelles pistes ou bus"
 
 #: rc_option_editor.cc:4711
 msgid "Hardware Patchbay"
-msgstr "Baie de brassage matériel"
+msgstr "Connexions matérielles"
 
 #: rc_option_editor.cc:4715
 msgid "Restore hardware to hardware connections"
@@ -17855,7 +17852,7 @@ msgstr ""
 #: rc_option_editor.cc:4907 rc_option_editor.cc:4909 rc_option_editor.cc:4917
 #: rc_option_editor.cc:4932
 msgid "Preferences|Metering"
-msgstr "Mesure"
+msgstr "Indicateurs de mesure"
 
 #: rc_option_editor.cc:4753
 msgid "Meterbridge meters"
@@ -17881,23 +17878,23 @@ msgstr "long"
 # extraspace needed to get a space before the colon
 #: rc_option_editor.cc:4774
 msgid "DPM fall-off"
-msgstr "Vitesse de descente des crête-mètres "
+msgstr "Vitesse de chute des crête-mètres "
 
 #: rc_option_editor.cc:4780
 msgid "slowest [6.6dB/sec]"
-msgstr "le plus lent [6.6dB/sec]"
+msgstr "très lente [6.6dB/sec]"
 
 #: rc_option_editor.cc:4781
 msgid "slow [8.6dB/sec] (BBC PPM, EBU PPM)"
-msgstr "lent [8.6dB/sec] (BBC PPM, EBU PPM)"
+msgstr "lente [8.6dB/sec] (BBC PPM, EBU PPM)"
 
 #: rc_option_editor.cc:4782
 msgid "moderate [12.0dB/sec] (DIN)"
-msgstr "modéré [12.0dB/sec] (DIN)"
+msgstr "modérée [12.0dB/sec] (DIN)"
 
 #: rc_option_editor.cc:4783
 msgid "medium [13.3dB/sec] (EBU Digi PPM, IRT Digi PPM)"
-msgstr "médium [13.3dB/sec] (EBU Digi PPM, IRT Digi PPM)"
+msgstr "moyenne [13.3dB/sec] (EBU Digi PPM, IRT Digi PPM)"
 
 #: rc_option_editor.cc:4784
 msgid "fast [20dB/sec]"
@@ -17910,7 +17907,7 @@ msgstr "très rapide [32dB/sec]"
 # extraspace needed to get a space before the colon
 #: rc_option_editor.cc:4791
 msgid "Meter line-up level; 0dBu"
-msgstr "Niveau ligne (0 dBu) "
+msgstr "Niveau ligne) (0 dBu) "
 
 #: rc_option_editor.cc:4796 rc_option_editor.cc:4812
 msgid "-24dBFS (SMPTE US: 4dBu = -20dBFS)"
@@ -17933,9 +17930,9 @@ msgid ""
 "Configure meter-marks and color-knee point for dBFS scale DPM, set reference "
 "level for IEC1/Nordic, IEC2 PPM and VU meter."
 msgstr ""
-"Configurer les échelle et zones de changement de couleur pour le crête-mètre "
-"dBFS, et le niveau de référence pour les indicateurs de niveau IEC1/Nordic, "
-"IEC2 PPM et VU-mètre."
+"Configurer les graduations et zones de changement de couleur pour le crête-"
+"mètre dBFS, et le niveau de référence pour les indicateurs de niveau IEC1/"
+"Nordic, IEC2 PPM et VU-mètre."
 
 # extraspace needed to get a space before the colon
 #: rc_option_editor.cc:4807
@@ -18585,7 +18582,7 @@ msgstr "Piste :"
 msgid "Choose Top Region"
 msgstr "Choisir la région du haut"
 
-#: region_list_base.cc:641
+#: region_list_base.cc:660
 msgid "MISSING "
 msgstr "MANQUANT "
 
