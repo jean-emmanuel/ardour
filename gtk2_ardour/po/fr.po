@@ -18540,7 +18540,7 @@ msgstr "modifier le point de synchronisation de la région"
 
 #: region_editor.cc:772
 msgid "Automation Enable"
-msgstr "Automation activee"
+msgstr "Automation active"
 
 #: region_editor.cc:773
 msgid "Clear All Automation"
