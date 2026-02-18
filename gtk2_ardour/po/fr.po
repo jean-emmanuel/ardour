@@ -18758,7 +18758,7 @@ msgstr "Départ Surround"
 
 #: route_group_dialog.cc:57
 msgid "Active state"
-msgstr "Piste act"
+msgstr "État actif"
 
 # ne pas traduire
 #: route_group_dialog.cc:63
@@ -19156,7 +19156,7 @@ msgid ""
 "Left-click to invert polarity of channel %1 of this track. Right-click to "
 "show menu."
 msgstr ""
-"Clic gauche pour inverser la polarité du canal %1 de cette piste. Clic-droit "
+"Clic gauche pour inverser la polarité du canal %1 de cette piste. Clic droit "
 "pour afficher le menu."
 
 #: route_ui.cc:2219
