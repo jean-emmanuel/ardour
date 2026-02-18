@@ -11425,7 +11425,7 @@ msgstr "Insérer un changement de signature rythmique"
 # ne pas traduire (nom de style interne)
 #: marker.cc:363 mini_timeline.cc:143 tempo_curve.cc:84 tempo_curve.cc:85
 msgid "MarkerText"
-msgstr ""
+msgstr "MarkerText"
 
 #: mergeable_line.cc:103
 msgid "draw automation"
@@ -18569,7 +18569,7 @@ msgstr "Propriétés de région"
 # ne pas traduire
 #: region_layering_order_editor.cc:44
 msgid "RegionLayeringOrderEditor"
-msgstr ""
+msgstr "RegionLayeringOrderEditor"
 
 #: region_layering_order_editor.cc:57
 msgid "Region Name"
@@ -18594,7 +18594,7 @@ msgstr "Impossible d'enregistrer les paramètres GUI de la région dans %1"
 # ne pas traduire
 #: region_view.cc:337
 msgid "SilenceText"
-msgstr ""
+msgstr "SilenceText"
 
 #: region_view.cc:352 region_view.cc:371
 msgid "minutes"
@@ -18763,7 +18763,7 @@ msgstr "Piste act"
 # ne pas traduire
 #: route_group_dialog.cc:63
 msgid "RouteGroupDialog"
-msgstr ""
+msgstr "RouteGroupDialog"
 
 #: route_group_dialog.cc:104
 msgid "<b>Sharing</b>"
