@@ -1146,7 +1146,7 @@ msgstr "Retour automatique"
 
 #: application_bar.cc:201
 msgid "Dim All"
-msgstr "Atténué"
+msgstr "Atténuer"
 
 #: application_bar.cc:203
 msgid "Mute All"
@@ -1216,7 +1216,7 @@ msgid ""
 "Click to stop the audition"
 msgstr ""
 "Allumé lorsqu'une écoute est en cours.\n"
-"Cliquez pour stopper l'écoute"
+"Cliquez pour arrêter l'écoute"
 
 #: application_bar.cc:435
 msgid ""
@@ -1363,7 +1363,7 @@ msgstr ""
 
 #: ardour_ui.cc:319 io_plugin_window.cc:56
 msgid "I/O Plugins"
-msgstr "E/S Greffons"
+msgstr "Greffons d'E/S"
 
 #: ardour_ui.cc:320 plugin_manager_ui.cc:51
 msgid "Plugin Manager"
@@ -1979,7 +1979,7 @@ msgid ""
 msgstr ""
 "Cette session semble avoir gardé des modifications\n"
 "non sauvegardées, ou un enregistrement en cours,\n"
-"alors que l'ordinateur ou %1 ont été stoppés.\n"
+"alors que l'ordinateur ou %1 ont été éteints.\n"
 "\n"
 "%1 peut récupérer ces modifications pour vous,\n"
 "ou vous laisser les ignorer. Veuillez décider\n"
@@ -2205,7 +2205,7 @@ msgstr "Code temporel"
 #: ardour_ui_dialogs.cc:1131 session_option_editor.cc:178
 #: session_option_editor.cc:186 session_option_editor.cc:210
 msgid "Media"
-msgstr "Médias"
+msgstr "Fichiers audio"
 
 #: ardour_ui_ed.cc:162
 msgid "Escape (deselect all)"
@@ -2224,7 +2224,7 @@ msgstr "Session"
 #: session_option_editor.cc:128 session_option_editor.cc:135
 #: session_option_editor.cc:142
 msgid "Sync"
-msgstr "Synchro"
+msgstr "Synchronisation"
 
 #: ardour_ui_ed.cc:175 rc_option_editor.cc:4730
 msgid "Options"
@@ -2872,7 +2872,7 @@ msgstr "Basculer le repère à la tête de lecture"
 
 #: ardour_ui_ed.cc:684 ardour_ui_ed.cc:686
 msgid "Add Mark from Playhead"
-msgstr "Créer un repère à la tête  de lecture"
+msgstr "Créer un repère à la tête de lecture"
 
 #: ardour_ui_ed.cc:689 ardour_ui_ed.cc:691
 msgid "Remove Mark at Playhead"
@@ -5413,7 +5413,7 @@ msgstr "Geler"
 
 #: editor.cc:1574
 msgid "Unfreeze"
-msgstr "Débloquer"
+msgstr "Dégeler"
 
 #: editor.cc:1667
 msgid "Region Loudness Analysis"
@@ -5690,7 +5690,7 @@ msgid ""
 msgstr ""
 "Déplacer les marqueurs et les intervalles lors de l'étirement de la grille\n"
 "(cette option n'est disponible que lorsque le domaine temporel de la session "
-"est réglé sur temps de battement)"
+"est réglé sur temps musical)"
 
 #: editor.cc:2900 editor_actions.cc:113
 msgid "Edit Point"
@@ -5862,7 +5862,7 @@ msgstr "Nom de la nouvelle liste de lecture :"
 
 #: editor.cc:3644 route_ui.cc:2874
 msgid "That name is already in use.  Use this instead?"
-msgstr "Ce nom est déjà utilisé.  Utiliser ceci à la place ?"
+msgstr "Ce nom est déjà utilisé. Utiliser ceci à la place ?"
 
 #: editor.cc:3669
 msgid "clear playlists"
@@ -6836,7 +6836,7 @@ msgstr "Verrouiller sur la vidéo"
 
 #: editor_actions.cc:1334
 msgid "Remove Sync"
-msgstr "Supprimer le point de synchro"
+msgstr "Supprimer le point de synchronisation"
 
 #: editor_actions.cc:1337 mixer_strip.cc:1741 mixer_strip.cc:1772
 #: monitor_section.cc:260 monitor_section.cc:320 monitor_section.cc:959
@@ -7057,7 +7057,7 @@ msgstr "Supprimer les repères de région Cue"
 
 #: editor_actions.cc:1485
 msgid "Set Sync Position"
-msgstr "Régler la position de synchronisation"
+msgstr "Placer le point de synchronisation"
 
 #: editor_actions.cc:1486
 msgid "Place Transient"
@@ -7968,11 +7968,11 @@ msgstr "Rogner les régions dans l'intervalle d'édition"
 
 #: editor_ops.cc:3472
 msgid "set sync point"
-msgstr "placer le point de synchro"
+msgstr "placer le point de synchronisation"
 
 #: editor_ops.cc:3496
 msgid "remove region sync"
-msgstr "supprimer la synchro de région"
+msgstr "supprimer la synchronisation de région"
 
 #: editor_ops.cc:3518
 msgid "move regions to original position"
@@ -8019,7 +8019,7 @@ msgid ""
 "Transport cannot be stopped, likely due to external timecode sync.\n"
 "Freezing a track requires the transport to be stopped."
 msgstr ""
-"Le transport ne peut pas être stoppé, probablement à cause de la "
+"Le transport ne peut pas être arrêté, probablement à cause de la "
 "synchronisation externe.\n"
 "Geler une piste nécessite de stopper le transport."
 
@@ -10326,7 +10326,9 @@ msgstr "Atténuateur d'automation du gain"
 
 #: gain_meter.cc:173
 msgid "dBFS - Digital Peak Hold. Click to reset."
-msgstr "dBFS - Crête maintenue.Clic pour réinitialiser."
+msgstr ""
+"dBFS - Crête maintenue.\n"
+"Clic pour réinitialiser."
 
 #: gain_meter.cc:184
 msgid "Metering point"
@@ -12809,7 +12811,7 @@ msgid ""
 "Click to stop the audition"
 msgstr ""
 "Allumé lorsqu'une écoute est en cours.\n"
-"Cliquez pour stopper l'écoute"
+"Cliquez pour arrêter l'écoute"
 
 #: monitor_section.cc:157
 msgid "Solo controls affect solo-in-place"
@@ -13497,7 +13499,7 @@ msgstr "ID du groupe"
 
 #: playlist_selector.cc:80
 msgid "Scope: "
-msgstr "Appliquer à  : "
+msgstr "Appliquer à : "
 
 #: playlist_selector.cc:83
 msgid "Only this track/group"
@@ -15608,10 +15610,10 @@ msgid ""
 "<b>When disabled</b> clock displays are updated only every 100ms."
 msgstr ""
 "<b>Si coché</b>, les affichages d'horloges sont mis à jour à chaque images "
-"de code temporel (30 fps).\n"
+"de code temporel.\n"
 "\n"
 "<b>Si décoché</b>, les affichages d'horloges sont mis à jour seulement "
-"toutes les 100 ms (10 fps)."
+"toutes les 100 ms."
 
 #: rc_option_editor.cc:2618
 msgid "Blink Rec-Arm buttons"
@@ -16046,8 +16048,8 @@ msgstr ""
 #: rc_option_editor.cc:3084
 msgid "Show/Hide splash screen instead of setting z-axis stack order"
 msgstr ""
-"Afficher/masquer l'écran de démarrage au lieu de définir l'ordre des "
-"colonnes sur l'axe z"
+"Afficher / masquer l'écran de démarrage au lieu de changer sa position sur "
+"l'axe z"
 
 #: rc_option_editor.cc:3093
 msgid "All floating windows are dialogs"
@@ -16563,7 +16565,7 @@ msgstr "Cibles aimantées :"
 
 #: rc_option_editor.cc:3561
 msgid "Region Sync Points"
-msgstr "Points de synchro de région"
+msgstr "Points de synchronisation de région"
 
 #: rc_option_editor.cc:3569
 msgid "Region Starts"
@@ -16921,7 +16923,7 @@ msgstr ""
 "lecture à se limiter à la boucle.\n"
 "\n"
 "<b>Si décoché</b>, le bouton Boucle lance la lecture de la boucle, mais "
-"stoppe puis annule la lecture en boucle"
+"l'arrêt annule la lecture en boucle"
 
 # extraspace needed to get a space before the colon
 #: rc_option_editor.cc:3852
@@ -17167,9 +17169,9 @@ msgid ""
 "\n"
 "This mostly affects plugins with a \"tail\" like Reverbs."
 msgstr ""
-"<b>Si coché</b>, les greffons seront réinitialisés en stoppant le transport. "
-"Si décoché, les greffons seront laissés en l'état en stoppant le "
-"défilement.\n"
+"<b>Si coché</b>, les greffons seront réinitialisés quand le transport est "
+"arrêté. Si décoché, les greffons seront laissés en l'état en quand le "
+"transport est arrêté.\n"
 "\n"
 "Les greffons concernés sont principalement ceux avec une \"queue\" comme les "
 "réverbérations."
@@ -17268,10 +17270,10 @@ msgid ""
 "<b>When disabled</b> sidechain input pins will remain unconnected."
 msgstr ""
 "<b>Si coché</b> des ports sidechain sont créés pour un greffon au moment de "
-"son  instanciation si celui-ci possède de telles entrées. Notez que les "
-"ports eux-même doivent être connectés manuellement, donc bien que les "
-"broches  du greffon soient connectées elles sont initialement alimentées par "
-"du silence.\n"
+"son instanciation si celui-ci possède de telles entrées. Notez que les ports "
+"eux-même doivent être connectés manuellement, donc bien que les broches  du "
+"greffon soient connectées elles sont initialement alimentées par du "
+"silence.\n"
 "<b>Si décoché</b> l'entrée sidechain restera déconnectée."
 
 #: rc_option_editor.cc:4132 rc_option_editor.cc:4133 rc_option_editor.cc:4141
@@ -17590,9 +17592,9 @@ msgid ""
 "<b>When enabled</b>, and Transport -> Auto-Input is enabled, %1 will always "
 "monitor audio inputs when transport is stopped, even if tracks aren't armed."
 msgstr ""
-"<b>Si coché</b>, et que le bouton Transport -> Entrée-auto est activé, %1 "
-"écoutera toujours les entrées audio lorsque le transport est arrêté, même si "
-"les pistes ne sont pas armées."
+"<b>Si coché</b>, et que le bouton Transport -> Écoute automatique est "
+"activé, %1 écoutera toujours les entrées audio lorsque le transport est "
+"arrêté, même si les pistes ne sont pas armées."
 
 #: rc_option_editor.cc:4483
 msgid "Solo controls are Listen controls"
@@ -18006,11 +18008,11 @@ msgstr "Type d'indicateur par défaut des pistes "
 
 #: rc_option_editor.cc:4907
 msgid "Region Analysis"
-msgstr "Analyse de la région"
+msgstr "Analyse des régions"
 
 #: rc_option_editor.cc:4912
 msgid "Enable automatic analysis of audio"
-msgstr "Activer l'analyse automatique de l'audio"
+msgstr "Activer l'analyse automatique de l'audio (recherche de transitoires)"
 
 #: rc_option_editor.cc:4917
 msgid "Realtime Analyzer"
@@ -18018,7 +18020,7 @@ msgstr "Analyseur temps-réel"
 
 #: rc_option_editor.cc:4921
 msgid "Limit concurrent RTA spectra"
-msgstr "Limiter les spectres RTA simultanés"
+msgstr "Limiter le nombre de spectres RTA simultanés"
 
 #: rc_option_editor.cc:4925
 msgid "4"
@@ -18140,7 +18142,9 @@ msgstr ""
 
 #: rc_option_editor.cc:5062
 msgid "Changes may not be effective until audio-engine restart."
-msgstr "Les changements pourraient dépendre du redémarrage du moteur audio."
+msgstr ""
+"Les changements pourraient nécessiter un redémarrage du moteur audio pour "
+"être effectifs."
 
 #: rc_option_editor.cc:5067
 msgid "Disk I/O Buffering"
@@ -18168,7 +18172,7 @@ msgstr "Temps-réel (FIFO)"
 
 #: rc_option_editor.cc:5100
 msgid "Realtime (Round Robin)"
-msgstr "Temps-réel (round-robin)"
+msgstr "Temps-réel (Round Robin)"
 
 #: rc_option_editor.cc:5106
 msgid "Memory Usage"
@@ -18177,7 +18181,7 @@ msgstr "Utilisation de la mémoire"
 # extraspace needed to get a space before the colon
 #: rc_option_editor.cc:5109
 msgid "Waveform image cache size (megabytes)"
-msgstr "Taille du cache d'images de signal (en Mb) "
+msgstr "Taille du cache des images de formes d'onde (en Mb) "
 
 #: rc_option_editor.cc:5117
 msgid ""
@@ -18185,12 +18189,12 @@ msgid ""
 "can improve graphical performance."
 msgstr ""
 "Augmenter la taille du cache utilise plus de mémoire pour stocker les images "
-"de signal, ce qui peut impacter les performances graphiques."
+"de formes d'onde, ce qui peut améliorer les performances graphiques."
 
 # extraspace needed to get a space before the colon
 #: rc_option_editor.cc:5125
 msgid "Thinning factor (larger value => less data)"
-msgstr "Facteur d'espacement (plus => moins de données) "
+msgstr "Facteur d'espacement (plus grand = moins de données) "
 
 # extraspace needed to get a space before the colon
 #: rc_option_editor.cc:5134
@@ -18264,13 +18268,13 @@ msgid ""
 "or a regular MIDI device capable of sending sequential note numbers (like a "
 "typical keyboard)"
 msgstr ""
-"S'il est défini, il identifie le port MIDI d'entrée qui sera automatiquement "
-"connecté aux boîtes de déclenchement.\n"
+"Si défini, détermine le port MIDI d'entrée qui sera automatiquement connecté "
+"aux boites de déclenchement.\n"
 "\n"
-"Il est destiné à être connecté à un dispositif de pad NxN (tel que le Push 2 "
-"d'Ableton ou le Launchpad de Novation)\n"
-"ou à un périphérique MIDI normal capable d'envoyer des numéros de notes "
-"séquentiels (comme un clavier classique)."
+"Il est destiné à être connecté à un contrôleurs à NxN pads (tel que le "
+"Ableton Push 2 ou le Novation Launchpad)\n"
+"ou à un périphérique MIDI capable d'envoyer des numéros de notes séquentiels "
+"(comme un clavier classique)."
 
 #: rc_option_editor.cc:5173
 msgid "Clip Library"
@@ -18306,7 +18310,7 @@ msgstr "Nouvelle liste de lecture pour les pistes armées"
 
 #: recorder_ui.cc:91
 msgid "Auto-Input"
-msgstr "Entrée auto"
+msgstr "Écoute auto"
 
 #: recorder_ui.cc:115
 msgid "Arm Tracks:"
@@ -18348,7 +18352,7 @@ msgstr "Écoute d'entrée pour toute piste non verrouillée en lecture du disque
 msgid ""
 "Force all tracks to monitor Disk playback, unless they are explicitly set to "
 "Input"
-msgstr "Lecture du disque pour toute piste non verrouillée en écoute d'entrée"
+msgstr "Écoute du disque pour toute piste non verrouillée en écoute d'entrée"
 
 #: recorder_ui.cc:251
 msgid "Create a new playlist for all tracks and switch to it."
@@ -18364,27 +18368,24 @@ msgstr "Créer une nouvelle liste de lecture pour toutes les pistes armées"
 msgid ""
 "X-runs: Soundcard buffer under- or over-run occurrences in the last "
 "recording take"
-msgstr ""
-"Décrochages : Les cas de sous ou de surcharge de la mémoire tampon de la "
-"carte son au cours de la dernière prise d'enregistrement"
+msgstr "Décrochages (xruns) au cours de la dernière prise d'enregistrement"
 
 #: recorder_ui.cc:254
 msgid ""
 "Remaining Time:  Recording time available on the current disk with currently "
 "armed tracks"
 msgstr ""
-"Temps restant : Temps d'enregistrement disponible sur le disque actuel avec "
-"les pistes actuellement armées"
+"Temps d'enregistrement disponible sur le disque avec les pistes actuellement "
+"armées"
 
 #: recorder_ui.cc:255
 msgid "Duration: Length of the most recent (or current) recording take"
-msgstr ""
-"Durée : Durée de la prise d'enregistrement la plus récente (ou en cours)"
+msgstr "Durée de la prise d'enregistrement la plus récente (ou en cours)"
 
 #: recorder_ui.cc:256
 msgid "Delete the region AND the audio files of the last recording take"
 msgstr ""
-"Supprimer la région ET les fichiers audio de la dernière prise "
+"Supprimer les régions ET les fichiers audio de la dernière prise "
 "d'enregistrement"
 
 #: recorder_ui.cc:257
@@ -18392,7 +18393,7 @@ msgid ""
 "Auto-input: when enabled, track input monitoring automatically follows "
 "transport state"
 msgstr ""
-"Entrée automatique : lorsque cette option est activée, l'écoute de l'entrée "
+"Écoute automatique : lorsque cette option est activée, l'écoute de l'entrée "
 "de piste suit automatiquement l'état du transport"
 
 #: recorder_ui.cc:385
@@ -18419,11 +18420,11 @@ msgstr "Enregistreur"
 
 #: recorder_ui.cc:772
 msgid "I/O Plugin Audio %1"
-msgstr "E/S greffon audio %1"
+msgstr "Greffon d'E/S audio %1"
 
 #: recorder_ui.cc:775
 msgid "I/O Plugin MIDI %1"
-msgstr "E/S greffon MIDI %1"
+msgstr "Greffon d'E/S MIDI %1"
 
 #: recorder_ui.cc:781
 msgid "Audio Input %1"
@@ -18467,7 +18468,7 @@ msgstr "Ce port n'alimente aucune piste"
 
 #: recorder_ui.cc:1603
 msgid "I/O Plugin input port '%1'"
-msgstr "E/S Port d'entrée du greffon '%1'."
+msgstr "Greffon d'E/S : port d'entrée '%1'"
 
 #: recorder_ui.cc:1605
 msgid "Set or edit the custom name for input port '%1'"
@@ -18487,11 +18488,11 @@ msgstr "écouter cette région"
 
 #: region_editor.cc:127
 msgid "Sync point (relative to region)"
-msgstr "Point de synchro (relatif à la région)"
+msgstr "Point de synchronisation (relatif à la région)"
 
 #: region_editor.cc:129
 msgid "Sync point (absolute)"
-msgstr "Point de synchro (absolu)"
+msgstr "Point de synchronisation (absolu)"
 
 #: region_editor.cc:131
 msgid "File start"
@@ -18535,11 +18536,11 @@ msgstr "changer la longueur de la région"
 
 #: region_editor.cc:538 region_editor.cc:550
 msgid "change region sync point"
-msgstr "modifier le point de synchro de la région"
+msgstr "modifier le point de synchronisation de la région"
 
 #: region_editor.cc:772
 msgid "Automation Enable"
-msgstr "Automation active"
+msgstr "Automation activee"
 
 #: region_editor.cc:773
 msgid "Clear All Automation"
@@ -18547,7 +18548,7 @@ msgstr "Effacer toute l'automation"
 
 #: region_editor.cc:902
 msgid "Clear region fx automation"
-msgstr "Effacer l'automation de l'effet de région"
+msgstr "effacer l'automation d'un effet de région"
 
 #: region_editor.cc:944
 msgid "Failed to load Region Effect Plugin"
@@ -18565,10 +18566,10 @@ msgstr ""
 msgid "Region Properties"
 msgstr "Propriétés de région"
 
-# not sure why no space between the words, or if it doesn't need to be translate ?
+# ne pas traduire
 #: region_layering_order_editor.cc:44
 msgid "RegionLayeringOrderEditor"
-msgstr "RegionLayeringOrderEditor"
+msgstr ""
 
 #: region_layering_order_editor.cc:57
 msgid "Region Name"
@@ -18590,11 +18591,10 @@ msgstr "MANQUANT "
 msgid "Could not save region GUI settings to %1"
 msgstr "Impossible d'enregistrer les paramètres GUI de la région dans %1"
 
-# not sure why no space between the words, or if it doesn't need to be translate ?
-# PLUS, translation says "hide the text"
+# ne pas traduire
 #: region_view.cc:337
 msgid "SilenceText"
-msgstr "SilenceText"
+msgstr ""
 
 #: region_view.cc:352 region_view.cc:371
 msgid "minutes"
@@ -18674,10 +18674,12 @@ msgstr "Flux spectral"
 msgid "Split region"
 msgstr "Scinder la région"
 
+# code commenté
 #: rhythm_ferret.cc:73
 msgid "Snap regions"
 msgstr "Aimanter les régions"
 
+# code commenté
 #: rhythm_ferret.cc:74
 msgid "Conform regions"
 msgstr "Conformer les régions"
@@ -18748,21 +18750,20 @@ msgstr "Muet"
 
 #: route_group_dialog.cc:54
 msgid "Record enable"
-msgstr "Armement"
+msgstr "Enregistrement"
 
 #: route_group_dialog.cc:55
 msgid "Surround Send enable"
-msgstr "Activation du départ Surround"
+msgstr "Départ Surround"
 
-# This string is for the New Group Dialog and is one of the properties that can be shared among the group.
 #: route_group_dialog.cc:57
 msgid "Active state"
-msgstr "État actif"
+msgstr "Piste act"
 
-# not sure why no space between the words, or if it doesn't need to be translate ?
+# ne pas traduire
 #: route_group_dialog.cc:63
 msgid "RouteGroupDialog"
-msgstr "RouteGroupDialog"
+msgstr ""
 
 #: route_group_dialog.cc:104
 msgid "<b>Sharing</b>"
@@ -18822,7 +18823,7 @@ msgstr "Solo sûr (verrouillé)"
 
 #: route_list_base.cc:415
 msgid "Only Show Tracks with Regions Under Playhead"
-msgstr "Ne montrer que les pistes avec des régions sous la tête"
+msgstr "Ne montrer que les pistes avec des régions sous la tête de lecture"
 
 #: route_params_ui.cc:87
 msgid "Tracks/Busses"
@@ -18838,7 +18839,7 @@ msgstr "Sorties"
 
 #: route_params_ui.cc:108
 msgid "Plugins, Inserts & Sends"
-msgstr "Greffons, départs et retours"
+msgstr "Traitements"
 
 #: route_params_ui.cc:197
 msgid "Display list item for renamed track/bus was not found!"
@@ -18880,7 +18881,7 @@ msgstr "Enregistrement"
 
 #: route_time_axis.cc:278
 msgid "MIDI Controllers and Automation"
-msgstr "Automation et contrôleurs MIDI"
+msgstr "Automation et contrôles MIDI"
 
 #: route_time_axis.cc:559 vca_time_axis.cc:485
 msgid "Show Existing Automation"
@@ -18953,11 +18954,11 @@ msgstr "Temps musical (battement)"
 
 #: route_time_axis.cc:872
 msgid "Follow Session time domain"
-msgstr "Suivre le domaine de temps de la session"
+msgstr "Suivre le domaine temporel de la session"
 
 #: route_time_axis.cc:880
 msgid "Time Domain"
-msgstr "Domaine de temps"
+msgstr "Domaine temporel"
 
 #: route_time_axis.cc:1279
 msgid "The name \"%1\" is reserved for %2"
@@ -18977,11 +18978,11 @@ msgstr "Paramètres %1 - %2"
 
 #: route_time_axis.cc:2412 vca_master_strip.cc:235 vca_time_axis.cc:274
 msgid "After-fade listen (AFL)"
-msgstr "Écoute après atténuateur (AFL)"
+msgstr "Écoute post-atténuateur (AFL)"
 
 #: route_time_axis.cc:2416 vca_master_strip.cc:239 vca_time_axis.cc:278
 msgid "Pre-fade listen (PFL)"
-msgstr "Écoute avant atténuateur (PFL)"
+msgstr "Écoute pré-atténuateur (PFL)"
 
 #: route_ui.cc:214
 msgid ""
@@ -19012,16 +19013,16 @@ msgstr ""
 #: route_ui.cc:247
 msgid "Show the strips that send to this bus, and control them from the faders"
 msgstr ""
-"Afficher les voies alimentant ce bus, et régler leurs départs avec leurs "
-"atténuateurs"
+"Afficher les pistes / bus alimentant ce bus, et régler leur niveau de départ "
+"avec leur atténuateur"
 
 #: route_ui.cc:252
 msgid "Monitor input"
-msgstr "Écoute d'entrée"
+msgstr "Écouter l'entrée"
 
 #: route_ui.cc:258
 msgid "Monitor playback"
-msgstr "Écoute de disque"
+msgstr "Écouter le disque"
 
 #: route_ui.cc:971
 msgid "Rec-Safe"
@@ -19155,12 +19156,12 @@ msgid ""
 "Left-click to invert polarity of channel %1 of this track. Right-click to "
 "show menu."
 msgstr ""
-"Cliquez-gauche pour inverser la polarité du canal %1 de cette piste. Cliquez-"
-"droit pour afficher le menu."
+"Clic gauche pour inverser la polarité du canal %1 de cette piste. Clic-droit "
+"pour afficher le menu."
 
 #: route_ui.cc:2219
 msgid "Click to show a menu of channels to invert polarity"
-msgstr "Cliquez pour afficher un menu de canaux pour inverser leurs polarités"
+msgstr "Clic pour afficher un menu de canaux pour inverser leurs polarités"
 
 #: route_ui.cc:2620
 msgid "New Playlist for track %1"
@@ -19256,8 +19257,7 @@ msgstr "Déformation :"
 
 #: rta_window.cc:123
 msgid "Clear current set of analyzed signals (except for the master bus)."
-msgstr ""
-"Effacer l'ensemble actuel des signaux analysés (à l'exception du bus master)."
+msgstr "Effacer l'ensemble des signaux analysés (à l'exception du bus master)."
 
 #: rta_window.cc:124
 msgid ""
@@ -19273,10 +19273,14 @@ msgid ""
 "seconds. Slow mode falls 5dB/s, Moderate 48dB/sec. Fast and Rapid mode are "
 "fast enough to be frequency dependent with Fast mode falling 96dB/s."
 msgstr ""
-"Définir le temps de retour de l'analyse. La mesure du bruit a un temps de "
-"chute de 1 dB en 2 secondes. Le mode lent diminue de 5 dB/s, le mode modéré "
-"de 48 dB/s. Les modes rapide et très rapide sont suffisamment rapides pour "
-"dépendre de la fréquence, le mode rapide diminuant de 96 dB/s."
+"<b>Vitesse de chute de l'analyse</b>\n"
+"Mesure du bruit : 0.5 dB/s\n"
+"Lent : 5 dB/s\n"
+"Modéré : 48 dB/s\n"
+"Rapide : 96 dB/s\n"
+"é\n"
+"Rapide et très rapide sont suffisamment rapides pour dépendre de la "
+"fréquence."
 
 #: rta_window.cc:126
 msgid ""
@@ -19297,19 +19301,19 @@ msgstr "Basculer vers la version nouvellement sauvegardée"
 
 #: save_as_dialog.cc:37
 msgid "Copy media to new session"
-msgstr "Copier le média vers une nouvelle session"
+msgstr "Copier les sources dans la nouvelle session"
 
 #: save_as_dialog.cc:38
 msgid "Copy external media into new session"
-msgstr "Copier le média externe dans une nouvelle session"
+msgstr "Copier les sources externes dans la nouvelle session"
 
 #: save_as_dialog.cc:39
 msgid "Newly-saved session should be empty"
-msgstr "La session nouvellement sauvegardée devrait être vide"
+msgstr "Ne pas copier les sources (session vide)"
 
 #: save_as_dialog.cc:50
 msgid "Save as session name"
-msgstr "Sauvegarder sous un nom de session"
+msgstr "Nom de la nouvelle session"
 
 #: save_as_dialog.cc:57
 msgid "Parent directory/folder"
@@ -19427,19 +19431,19 @@ msgstr "Cliquer pour ouvrir le site du programme dans votre navigateur"
 
 #: session_dialog.cc:127
 msgid "NEW"
-msgstr "NOUVEAU"
+msgstr "Nouveau"
 
 #: session_dialog.cc:133
 msgid "RECENT"
-msgstr "RECENT"
+msgstr "Récents"
 
 #: session_dialog.cc:139
 msgid "OPEN"
-msgstr "OUVRIR"
+msgstr "Ouvrir"
 
 #: session_dialog.cc:145
 msgid "SETTINGS"
-msgstr "PARAMETRES"
+msgstr "Paramètres"
 
 #: session_dialog.cc:194
 msgid "Safe Mode: Disable all Plugins"
@@ -19447,7 +19451,7 @@ msgstr "Mode sans échec : désactiver tous les greffons"
 
 #: session_dialog.cc:491
 msgid "File Resolution"
-msgstr "Résolution du fichier"
+msgstr "Résolution de fichier"
 
 #: session_dialog.cc:493
 msgid "Last Modified"
@@ -19460,7 +19464,7 @@ msgstr "Sessions %1"
 
 #: session_dialog.cc:523
 msgid "Session Archives"
-msgstr "Archives-session"
+msgstr "Archives de session"
 
 #: session_dialog.cc:528
 msgid "Advanced Authoring Format (AAF)"
@@ -19478,7 +19482,7 @@ msgstr "Le fichier de session %1 n'existe pas"
 #: session_dialog.cc:585 startup_fsm.cc:628 startup_fsm.cc:768
 #: startup_fsm.cc:897
 msgid "Session %1 is from a newer version of %2"
-msgstr "La session %1 est une nouvelle version de %2"
+msgstr "La session %1 provient d'une version plus récente de %2"
 
 #: session_dialog.cc:589 startup_fsm.cc:632 startup_fsm.cc:772
 #: startup_fsm.cc:901
@@ -19522,7 +19526,7 @@ msgstr "Choisir le dossier de session"
 
 #: session_dialog.cc:798
 msgid "Default Time Domain:"
-msgstr "Domaine de temps par défaut :"
+msgstr "Domaine temporel par défaut :"
 
 #: session_dialog.cc:804
 msgid "Audio Time"
@@ -19530,7 +19534,7 @@ msgstr "Temps audio"
 
 #: session_dialog.cc:805
 msgid "Beat Time"
-msgstr "Temps de battement"
+msgstr "Temps musical"
 
 #: session_dialog.cc:809
 msgid ""
@@ -19549,8 +19553,8 @@ msgstr ""
 "Le domaine temporel contrôle la façon dont certains éléments de la ligne de "
 "temps réagissent à l'édition de la carte de tempo.\n"
 "\n"
-"Si vous choisissez le temps de battement, certains éléments (comme les "
-"marqueurs) se déplaceront lorsque vous changerez le tempo.\n"
+"Si vous choisissez le temps musical, certains éléments (comme les marqueurs) "
+"se déplaceront lorsque vous changerez le tempo.\n"
 "\n"
 "Si vous choisissez Temps audio, ces éléments ne bougeront pas lorsque vous "
 "modifiez le tempo.\n"
@@ -19558,7 +19562,7 @@ msgstr ""
 "Le domaine temporel affecte également les règles de graduations temporelles "
 "qui seront initialement visibles.\n"
 "\n"
-"Vous pouvez modifier la base temporelle de la session à tout moment dans "
+"Vous pouvez modifier le domaine temporel de la session à tout moment dans "
 "Session -> Propriétés."
 
 #: session_dialog.cc:848
@@ -19675,7 +19679,7 @@ msgstr "Artiste de l'album"
 
 #: session_metadata_dialog.cc:777
 msgid "Total Tracks"
-msgstr "Nombre de morceaux"
+msgstr "Nombre de pistes"
 
 #: session_metadata_dialog.cc:780
 msgid "Disc Subtitle"
@@ -19707,7 +19711,7 @@ msgstr "Participants"
 
 #: session_metadata_dialog.cc:813
 msgid "Lyricist"
-msgstr "Auteur"
+msgstr "Parolier"
 
 #: session_metadata_dialog.cc:816
 msgid "Composer"
@@ -19739,7 +19743,7 @@ msgstr "DJ Mixeur"
 
 #: session_metadata_dialog.cc:837
 msgid "Metadata|Mixer"
-msgstr "Console"
+msgstr "Mixeur"
 
 #: session_metadata_dialog.cc:845
 msgid "School"
@@ -19747,7 +19751,7 @@ msgstr "École"
 
 #: session_metadata_dialog.cc:850
 msgid "Instructor"
-msgstr "Instructeur"
+msgstr "Professeur"
 
 #: session_metadata_dialog.cc:853
 msgid "Course"
@@ -19793,7 +19797,7 @@ msgstr "Paramètres de code temporel"
 
 #: session_option_editor.cc:52
 msgid "Timecode frames-per-second"
-msgstr "Images par secondes de code temporel"
+msgstr "Cadence du code temporel (images par secondes)"
 
 #: session_option_editor.cc:57
 msgid "23.976"
@@ -19904,8 +19908,7 @@ msgstr "Transport JACK/réglages de temps"
 msgid ""
 "%1 is JACK Time Master (provides Bar|Beat|Tick and other information to JACK)"
 msgstr ""
-"%1 est maître de JACK (donne les infos mesure|temps|battement et autres à "
-"JACK)"
+"%1 est maître de JACK (donne les infos de mesure|temps|tick et autres à JACK)"
 
 #: session_option_editor.cc:127
 msgid "A/V Synchronization"
@@ -19933,7 +19936,7 @@ msgstr "Fondus audio"
 
 #: session_option_editor.cc:150
 msgid "Declick when transport starts and stops"
-msgstr "Lecture et stop sans clic audible"
+msgstr "Démarrage et arrêt du transport sans clic audible"
 
 #: session_option_editor.cc:157
 msgid "Declick when monitor state changes"
@@ -19949,11 +19952,11 @@ msgstr "Fondus des régions visibles"
 
 #: session_option_editor.cc:182
 msgid "Sample format"
-msgstr "Format d'échantillonnage"
+msgstr "Précision "
 
 #: session_option_editor.cc:192
 msgid "File type"
-msgstr "Type de fichier"
+msgstr "Type de fichier "
 
 #: session_option_editor.cc:197
 msgid "Broadcast WAVE (4GB size limit)"
@@ -20008,8 +20011,7 @@ msgstr "Préfixer avec le numéro de piste"
 #: session_option_editor.cc:240
 msgid ""
 "Adds the current track number to the beginning of the recorded file name."
-msgstr ""
-"Ajoute le numéro de piste en cours au début du nom du fichier enregistré."
+msgstr "Ajoute le numéro de la piste au début du nom du fichier enregistré."
 
 #: session_option_editor.cc:245
 msgid "Prefix Take Name"
@@ -20027,7 +20029,7 @@ msgstr "Nom de prise"
 msgid ""
 "Track Input Monitoring automatically follows transport state (\"auto-input\")"
 msgstr ""
-"L'écoute d'entrée des pistes suit l'état du défilement (\"entrée-auto\")"
+"L'écoute d'entrée des pistes suit l'état du défilement (Écoute automatique)"
 
 #: session_option_editor.cc:276
 msgid ""
@@ -20153,7 +20155,7 @@ msgstr "Options diverses"
 
 #: session_option_editor.cc:402
 msgid "Default time domain"
-msgstr "Domaine de temps par défaut"
+msgstr "Domaine temporel par défaut"
 
 #: session_option_editor.cc:408
 msgid "Musical (beats) time"
@@ -21915,7 +21917,7 @@ msgstr "Paramétrer "
 
 #: transport_control_ui.cc:71
 msgid "Play from playhead"
-msgstr "Lire depuis la tête"
+msgstr "Lire depuis la tête de lecture"
 
 #: transport_control_ui.cc:72
 msgid "Stop playback"
@@ -21970,7 +21972,7 @@ msgstr "Ajouter un nouveau maître du transport"
 
 #: transport_masters_dialog.cc:54
 msgid "Keep rolling if sync is lost"
-msgstr "Continuer à tourner malgré la perte de synchro"
+msgstr "Continuer le lecture malgré la perte de synchronisation"
 
 #: transport_masters_dialog.cc:74
 msgid ""
@@ -21978,13 +21980,14 @@ msgid ""
 "keep rolling at its current speed.\n"
 "<b>When disabled</b>, loss of transport master sync causes %1 to stop"
 msgstr ""
-"<b>Si coché</b>, en cas de perte de synchro externe de défilement, %1 "
+"<b>Si coché</b>, en cas de perte de synchronisation de transport, %1 "
 "continuera d'avancer à sa vitesse actuelle.\n"
-"<b>Si décoché</b>, un perte de synchro externe de défilement stoppera %1"
+"<b>Si décoché</b>, une perte de synchronisation de transport arrêtera le "
+"transport dans %1"
 
 #: transport_masters_dialog.cc:84
 msgid "Sync Position + Delta"
-msgstr "Position de synchro + delta"
+msgstr "Position de synchronisatin + delta"
 
 #: transport_masters_dialog.cc:85
 msgid "Last Message + Age"
@@ -21996,7 +21999,7 @@ msgid ""
 "Synced"
 msgstr ""
 "Horloge\n"
-"Synchro"
+"Synchronisée"
 
 #: transport_masters_dialog.cc:87
 msgid ""
@@ -22550,7 +22553,7 @@ msgstr "Panique"
 
 #: virtual_keyboard_window.cc:115
 msgid "Set the MIDI Channel of the produced MIDI events"
-msgstr "Régler le canal MIDI des évènements MIDI produits"
+msgstr "Définir le canal MIDI des évènements MIDI produits"
 
 #: virtual_keyboard_window.cc:116
 msgid ""
@@ -22700,7 +22703,7 @@ msgid ""
 msgstr ""
 "Incompatibilité du répertoire-racine du serveur-vidéo. %1 : '%2', serveur-"
 "vidéo : '%3'. Cela signale habituellement que le serveur vidéo n'a pas était "
-"démarré par %1 et  utilise un répertoire-racine différent."
+"démarré par %1 et utilise un répertoire-racine différent."
 
 #: video_timeline.cc:717
 msgid ""
