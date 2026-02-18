@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: libardour 5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-17 22:27+0100\n"
-"PO-Revision-Date: 2026-02-18 09:42+0100\n"
+"PO-Revision-Date: 2026-02-18 11:35+0100\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -1682,67 +1682,67 @@ msgstr ""
 
 #: operations.cc:41
 msgid "capture"
-msgstr "Capturer"
+msgstr "enregistrer"
 
 #: operations.cc:42
 msgid "paste"
-msgstr "Coller"
+msgstr "coller"
 
 #: operations.cc:43
 msgid "duplicate region"
-msgstr "Dupliquer la région"
+msgstr "dupliquer une région"
 
 #: operations.cc:44
 msgid "insert file"
-msgstr "Insérer un fichier"
+msgstr "insérer un fichier"
 
 #: operations.cc:45
 msgid "insert region"
-msgstr "Insérer une région"
+msgstr "insérer une région"
 
 #: operations.cc:46
 msgid "drag region brush"
-msgstr "brosse de région glissante"
+msgstr "glisser le pinceau de région"
 
 #: operations.cc:47
 msgid "region drag"
-msgstr "Déplacer la région"
+msgstr "déplacer une région"
 
 #: operations.cc:48
 msgid "selection grab"
-msgstr "Déplacer la sélection"
+msgstr "déplacer la sélection"
 
 #: operations.cc:49
 msgid "region fill"
-msgstr "Remplir la région"
+msgstr "remplir la région"
 
 #: operations.cc:50
 msgid "fill selection"
-msgstr "Remplir la sélection"
+msgstr "remplir la sélection"
 
 #: operations.cc:51
 msgid "create region"
-msgstr "Créer une région"
+msgstr "créer une région"
 
 #: operations.cc:52
 msgid "region copy"
-msgstr "Copier une région"
+msgstr "copier une région"
 
 #: operations.cc:53
 msgid "fixed time region copy"
-msgstr "Copier une région (horodatage fixe)"
+msgstr "copier une région (horodatage fixe)"
 
 #: pannable.cc:214
 msgid "Pannable given XML data for %1 - ignored"
-msgstr "Les panoramiques XML fournis pour %1 sont ignorés."
+msgstr "Panoramiques fournies par les données XML pour %1 ignorées."
 
 #: panner_manager.cc:98
 msgid "looking for panners in %1\n"
-msgstr "Recherche de Panoramiques dans %1\n"
+msgstr "lecherche de Panoramiques dans %1\n"
 
 #: panner_manager.cc:124
 msgid "Panner discovered: \"%1\" in %2\n"
-msgstr "Panoramique découvert : \"%1\" dans %2\n"
+msgstr "Panoramique découverte  : \"%1\" dans %2\n"
 
 #: panner_manager.cc:143
 msgid "PannerManager: cannot load module \"%1\" (%2)"
@@ -2737,11 +2737,11 @@ msgstr "L'initialisation de la session a échoué"
 
 #: session.cc:427
 msgid "Failed to load template/snapshot state"
-msgstr "Impossible de charger l'état du modèle/snapshot"
+msgstr "Impossible de charger l'état du modèle / cliché"
 
 #: session.cc:431
 msgid "Failed to parse template/snapshot state"
-msgstr "Impossible d'analyser l'état du modèle/snapshot"
+msgstr "Impossible d'analyser l'état du modèle / cliché"
 
 #: session.cc:452
 msgid "Failed to load state"
