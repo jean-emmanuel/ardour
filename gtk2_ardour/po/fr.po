@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ardour 8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-17 22:26+0100\n"
+"POT-Creation-Date: 2026-02-18 17:29+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -897,7 +897,7 @@ msgstr "E/S strictes"
 msgid "Template/Type"
 msgstr "Modèle/type"
 
-#: add_route_dialog.cc:214 session_dialog.cc:489 session_dialog.cc:850
+#: add_route_dialog.cc:214 session_dialog.cc:494 session_dialog.cc:855
 msgid "Modified With"
 msgstr "Modifié avec"
 
@@ -997,7 +997,7 @@ msgstr "12 canaux"
 msgid "Custom"
 msgstr "Perso"
 
-#: add_route_dialog.cc:1000 session_dialog.cc:716 session_dialog.cc:717
+#: add_route_dialog.cc:1000 session_dialog.cc:721 session_dialog.cc:722
 msgid "Factory Template"
 msgstr "Modèle de base"
 
@@ -3197,7 +3197,7 @@ msgid "Extracting AAF failed"
 msgstr "Échec de l'extraction AAF"
 
 #: ardour_ui_session.cc:262 ardour_ui_session.cc:295 ardour_ui_session.cc:909
-#: session_dialog.cc:902 startup_fsm.cc:873
+#: session_dialog.cc:907 startup_fsm.cc:873
 msgid ""
 "To ensure compatibility with various systems\n"
 "session names may not contain a '%1' character"
@@ -7180,7 +7180,7 @@ msgid "Embed all without questions"
 msgstr "Lier tout sans poser de question"
 
 #: editor_audio_import.cc:662 editor_audio_import.cc:688
-#: export_format_dialog.cc:79 session_dialog.cc:487 sfdb_ui.cc:846
+#: export_format_dialog.cc:79 session_dialog.cc:492 sfdb_ui.cc:846
 msgid "Sample Rate"
 msgstr "Fréquence d'échantillonnage"
 
@@ -7218,15 +7218,15 @@ msgstr ""
 "Import PT terminé !\n"
 "Voir le journal pour les détails"
 
-#: editor_canvas_events.cc:1144
+#: editor_canvas_events.cc:1145
 msgid "New Arrangement Marker"
 msgstr "Nouveau marqueur d'arrangement"
 
-#: editor_canvas_events.cc:1145
+#: editor_canvas_events.cc:1146
 msgid "Select Arrangement Section"
 msgstr "Sélectionner la section d'arrangement"
 
-#: editor_canvas_events.cc:1440 editor_drag.cc:1778
+#: editor_canvas_events.cc:1441 editor_drag.cc:1778
 msgid "Could not create new track after region placed in the drop zone"
 msgstr ""
 "Impossible de créer une nouvelle piste à partir de la région placée dans la "
@@ -9703,7 +9703,7 @@ msgstr "Construire le(s) nom(s) avec ces composants :"
 msgid "No Name"
 msgstr "Sans nom"
 
-#: export_filename_selector.cc:50 session_dialog.cc:486
+#: export_filename_selector.cc:50 session_dialog.cc:491
 #: strip_import_dialog.cc:172
 msgid "Session Name"
 msgstr "Nom de la session"
@@ -19421,11 +19421,27 @@ msgstr "Réglages de la session"
 msgid "Recent Sessions"
 msgstr "Sessions récentes"
 
-#: session_dialog.cc:113
+#: session_dialog.cc:103
+msgid "NEW"
+msgstr "Nouveau"
+
+#: session_dialog.cc:109
+msgid "RECENT"
+msgstr "Récents"
+
+#: session_dialog.cc:115
+msgid "OPEN"
+msgstr "Ouvrir"
+
+#: session_dialog.cc:121
+msgid "SETTINGS"
+msgstr "Paramètres"
+
+#: session_dialog.cc:147
 msgid "Check the website for more..."
 msgstr "Visiter le site web pour plus de détails..."
 
-#: session_dialog.cc:116
+#: session_dialog.cc:150
 msgid "Click to open the program website in your web browser"
 msgstr "Cliquer pour ouvrir le site du programme dans votre navigateur"
 
@@ -19449,60 +19465,60 @@ msgstr "Paramètres"
 msgid "Safe Mode: Disable all Plugins"
 msgstr "Mode sans échec : désactiver tous les greffons"
 
-#: session_dialog.cc:491
+#: session_dialog.cc:496
 msgid "File Resolution"
 msgstr "Résolution de fichier"
 
-#: session_dialog.cc:493
+#: session_dialog.cc:498
 msgid "Last Modified"
 msgstr "Dernière modification"
 
-#: session_dialog.cc:518 session_metadata_dialog.cc:921
+#: session_dialog.cc:523 session_metadata_dialog.cc:921
 #: strip_import_dialog.cc:109
 msgid "%1 sessions"
 msgstr "Sessions %1"
 
-#: session_dialog.cc:523
+#: session_dialog.cc:528
 msgid "Session Archives"
 msgstr "Archives de session"
 
-#: session_dialog.cc:528
+#: session_dialog.cc:533
 msgid "Advanced Authoring Format (AAF)"
 msgstr "Advanced Authoring Format (AAF)"
 
-#: session_dialog.cc:535 strip_import_dialog.cc:116
+#: session_dialog.cc:540 strip_import_dialog.cc:116
 msgid "All supported files"
 msgstr "Tous les fichiers pris en charge"
 
-#: session_dialog.cc:581 startup_fsm.cc:624 startup_fsm.cc:764
+#: session_dialog.cc:586 startup_fsm.cc:624 startup_fsm.cc:764
 #: startup_fsm.cc:893
 msgid "Session file %1 does not exist"
 msgstr "Le fichier de session %1 n'existe pas"
 
-#: session_dialog.cc:585 startup_fsm.cc:628 startup_fsm.cc:768
+#: session_dialog.cc:590 startup_fsm.cc:628 startup_fsm.cc:768
 #: startup_fsm.cc:897
 msgid "Session %1 is from a newer version of %2"
 msgstr "La session %1 provient d'une version plus récente de %2"
 
-#: session_dialog.cc:589 startup_fsm.cc:632 startup_fsm.cc:772
+#: session_dialog.cc:594 startup_fsm.cc:632 startup_fsm.cc:772
 #: startup_fsm.cc:901
 msgid "Cannot get existing session information from %1"
 msgstr ""
 "Impossible d'obtenir des informations sur la session existante auprès de %1"
 
-#: session_dialog.cc:644
+#: session_dialog.cc:649
 msgid "Untitled-%1"
 msgstr "Sans-titre-%1"
 
-#: session_dialog.cc:685
+#: session_dialog.cc:690
 msgid "Delete the selected Template"
 msgstr "Supprimer le modèle sélectionné"
 
-#: session_dialog.cc:737
+#: session_dialog.cc:742
 msgid "Empty Template"
 msgstr "Modèle vide"
 
-#: session_dialog.cc:739
+#: session_dialog.cc:744
 msgid ""
 "An empty session with factory default settings.\n"
 "\n"
@@ -19512,31 +19528,31 @@ msgstr ""
 "\n"
 "Sélectionnez cette option si vous importez des fichiers à mixer."
 
-#: session_dialog.cc:757
+#: session_dialog.cc:762
 msgid "Session name:"
 msgstr "Nom de la session :"
 
-#: session_dialog.cc:770
+#: session_dialog.cc:775
 msgid "Create session folder in:"
 msgstr "Créer le dossier de session dans :"
 
-#: session_dialog.cc:793
+#: session_dialog.cc:798
 msgid "Select folder for session"
 msgstr "Choisir le dossier de session"
 
-#: session_dialog.cc:798
+#: session_dialog.cc:803
 msgid "Default Time Domain:"
 msgstr "Domaine temporel par défaut :"
 
-#: session_dialog.cc:804
+#: session_dialog.cc:809
 msgid "Audio Time"
 msgstr "Temps audio"
 
-#: session_dialog.cc:805
+#: session_dialog.cc:810
 msgid "Beat Time"
 msgstr "Temps musical"
 
-#: session_dialog.cc:809
+#: session_dialog.cc:814
 msgid ""
 "The time domain controls how some items on the timeline respond to tempo map "
 "editing.\n"
@@ -19565,27 +19581,27 @@ msgstr ""
 "Vous pouvez modifier le domaine temporel de la session à tout moment dans "
 "Session -> Propriétés."
 
-#: session_dialog.cc:848
+#: session_dialog.cc:853
 msgid "Template"
 msgstr "Modèle"
 
-#: session_dialog.cc:1024 session_dialog.cc:1082
+#: session_dialog.cc:1029 session_dialog.cc:1087
 msgid "32-bit float"
 msgstr "32 bits virgule flottante"
 
-#: session_dialog.cc:1027 session_dialog.cc:1085
+#: session_dialog.cc:1032 session_dialog.cc:1090
 msgid "24-bit"
 msgstr "24 bits"
 
-#: session_dialog.cc:1030 session_dialog.cc:1088
+#: session_dialog.cc:1035 session_dialog.cc:1093
 msgid "16-bit"
 msgstr "16 bits"
 
-#: session_dialog.cc:1041 session_dialog.cc:1100
+#: session_dialog.cc:1046 session_dialog.cc:1105
 msgid "Last modified with: %1"
 msgstr "Dernière modification avec : %1"
 
-#: session_dialog.cc:1241
+#: session_dialog.cc:1246
 msgid "Remove session from recent list"
 msgstr "Retirer la session de la liste des récentes"
 
@@ -20066,35 +20082,35 @@ msgstr "Afficher les bus"
 
 #: session_option_editor.cc:308
 msgid "Include Master Bus"
-msgstr "Inclure le bus master"
+msgstr "Afficher le bus master"
 
 #: session_option_editor.cc:313
 msgid "Button Area"
-msgstr "Zone de boutons"
+msgstr "Contrôles"
 
 #: session_option_editor.cc:317
 msgid "Rec-enable Button"
-msgstr "Bouton d'armement d'enregistrement"
+msgstr "Enregistrement"
 
 #: session_option_editor.cc:324
 msgid "Mute Button"
-msgstr "Bouton de sourdine"
+msgstr "Muet"
 
 #: session_option_editor.cc:331
 msgid "Solo Button"
-msgstr "Bouton de solo"
+msgstr "Solo"
 
 #: session_option_editor.cc:338
 msgid "Monitor Buttons"
-msgstr "Boutons d'écoute de contrôle"
+msgstr "Écoute entrée / disque"
 
 #: session_option_editor.cc:345
 msgid "Fader as Gain Knob"
-msgstr "Atténuateur comme bouton de gain"
+msgstr "Atténuateur (rotatif)"
 
 #: session_option_editor.cc:350
 msgid "Name Labels"
-msgstr "Étiquettes de noms"
+msgstr "Libellés"
 
 #: session_option_editor.cc:354
 msgid "Track Name"
@@ -20190,7 +20206,7 @@ msgstr ""
 
 #: session_option_editor.cc:434
 msgid "Always count-in when recording"
-msgstr "Toujours décompter avant d'enregistrer"
+msgstr "Toujours faire un décompte avant d'enregistrer"
 
 #: session_option_editor.cc:439
 msgid "Project Banner"
@@ -20204,11 +20220,11 @@ msgstr ""
 
 #: session_option_editor.cc:448
 msgid "Defaults"
-msgstr "Par défaut"
+msgstr "Réglages par défaut"
 
 #: session_option_editor.cc:450
 msgid "Use these settings as defaults"
-msgstr "Utiliser ces paramètres par défaut"
+msgstr "Utiliser ces réglages par défaut pour les nouvelles sessions"
 
 #: session_option_editor.cc:498 session_option_editor.cc:506
 msgid "24-bit integer"
@@ -20291,11 +20307,11 @@ msgstr "Impossible de lire le fichier : %1."
 
 #: sfdb_ui.cc:353
 msgid "<b>MIDI File Information</b>"
-msgstr "<b>Informations du fichier MIDI</b>"
+msgstr "<b>Informations sur le fichier MIDI</b>"
 
 #: sfdb_ui.cc:373 sfdb_ui.cc:391
 msgid "No tempo data"
-msgstr "Pas de données de tempo"
+msgstr "Pas de donnée de tempo"
 
 #: sfdb_ui.cc:378
 msgid "%1/%2 ♩ = %3"
@@ -20307,11 +20323,11 @@ msgstr "carte des tempos avec %1 sections"
 
 #: sfdb_ui.cc:405 transcode_video_dialog.cc:110
 msgid "<b>File Information</b>"
-msgstr "<b>Informations du fichier</b>"
+msgstr "<b>Informations sur fichier</b>"
 
 #: sfdb_ui.cc:426
 msgid "Could not use confusing filename [%1] (%2)"
-msgstr "Impossible d'utiliser un nom de fichier déroutant [%1] (%2)"
+msgstr "Impossible d'utiliser le nom de fichier déroutant [%1] (%2)"
 
 #: sfdb_ui.cc:650
 msgid "SoundFileBox: Could not tokenize string: "
@@ -20343,7 +20359,7 @@ msgstr "Chemins"
 
 #: sfdb_ui.cc:768
 msgid "Search Tags"
-msgstr "Recherche d'étiquettes"
+msgstr "Recherche par étiquettes"
 
 #: sfdb_ui.cc:788
 msgid "Sort:"
@@ -20395,7 +20411,7 @@ msgstr "CC-BY-NC"
 
 #: sfdb_ui.cc:819
 msgid "PD"
-msgstr "PD"
+msgstr "Domaine publique"
 
 #: sfdb_ui.cc:826
 msgid "More"
@@ -20470,11 +20486,11 @@ msgstr "une piste par canal"
 
 #: sfdb_ui.cc:1687 sfdb_ui.cc:2026 sfdb_ui.cc:2043
 msgid "sequence files"
-msgstr "fichiers de séquence"
+msgstr "à la suite dans une même piste"
 
 #: sfdb_ui.cc:1689 sfdb_ui.cc:2025
 msgid "all files in one track"
-msgstr "tous les fichiers dans une piste"
+msgstr "un canal par fichier dans une même piste"
 
 #: sfdb_ui.cc:1695 sfdb_ui.cc:2028
 msgid "one region per file"
@@ -20482,11 +20498,11 @@ msgstr "une région par fichier"
 
 #: sfdb_ui.cc:1698 sfdb_ui.cc:2029
 msgid "one region per channel"
-msgstr "une région par voie"
+msgstr "une région par canal"
 
 #: sfdb_ui.cc:1703 sfdb_ui.cc:2030 sfdb_ui.cc:2044
 msgid "all files in one region"
-msgstr "tout dans une région"
+msgstr "tous les fichiers dans une même région"
 
 #: sfdb_ui.cc:1755
 msgid ""
@@ -20506,11 +20522,11 @@ msgstr "Utiliser la carte des tempos MIDI"
 
 #: sfdb_ui.cc:1895
 msgid "Import MIDI markers"
-msgstr "Importer des marqueurs MIDI"
+msgstr "Importer les marqueurs MIDI"
 
 #: sfdb_ui.cc:1910 sfdb_ui.cc:2098
 msgid "file timestamp"
-msgstr "horodatage du fichier"
+msgstr "d'après l'horodatage du fichier"
 
 #: sfdb_ui.cc:1911 sfdb_ui.cc:2100
 msgid "edit point"
@@ -20518,11 +20534,11 @@ msgstr "au point d'édition"
 
 #: sfdb_ui.cc:1912 sfdb_ui.cc:2102
 msgid "playhead"
-msgstr "tête"
+msgstr "à la tête de lecture"
 
 #: sfdb_ui.cc:1913
 msgid "session start"
-msgstr "début de la session"
+msgstr "au début de la session"
 
 #: sfdb_ui.cc:1922
 msgid "<b>Add files:</b>"
@@ -20530,7 +20546,7 @@ msgstr "<b>Ajouter des fichiers :</b>"
 
 #: sfdb_ui.cc:1928
 msgid "<b>Insert at:</b>"
-msgstr "<b>Insérer à :</b>"
+msgstr "<b>Position :</b>"
 
 #: sfdb_ui.cc:1934
 msgid "<b>Mapping:</b>"
@@ -20558,11 +20574,11 @@ msgstr "La meilleure"
 
 #: sfdb_ui.cc:1997 sfdb_ui.cc:2118
 msgid "Quick"
-msgstr "Rapide"
+msgstr "Moyenne"
 
 #: sfdb_ui.cc:1999
 msgid "Fastest"
-msgstr "Le plus rapide"
+msgstr "La plus rapide"
 
 #: sfdb_ui.cc:2007 sfdb_ui.cc:2073
 msgid "by file name"
@@ -20570,7 +20586,7 @@ msgstr "par nom de fichier"
 
 #: sfdb_ui.cc:2008 sfdb_ui.cc:2075
 msgid "by modification time"
-msgstr "par date/temps de modification"
+msgstr "par date de modification"
 
 #: sfdb_ui.cc:2009 sfdb_ui.cc:2077
 msgid "by selection order"
@@ -22166,35 +22182,35 @@ msgstr ""
 msgid "Window|Cues"
 msgstr "Cues"
 
-#: trigger_page.cc:975
+#: trigger_page.cc:974
 msgid "Cue Page: Show Sidebar List"
 msgstr "Cue : afficher la liste dans la barre latérale"
 
-#: trigger_page.cc:978
+#: trigger_page.cc:977
 msgid "Cue Page: Show Properties Bottom"
 msgstr "Cue : afficher les propriétés dans le volet inférieur"
 
-#: trigger_page.cc:981 trigger_page.cc:982
+#: trigger_page.cc:980 trigger_page.cc:981
 msgid "Clear Selected Slot"
 msgstr "Effacement de l'emplacement"
 
-#: trigger_page.cc:986
+#: trigger_page.cc:985
 msgid "Trigger Cue %1"
 msgstr "Déclencher Cue %1"
 
-#: trigger_page.cc:994
+#: trigger_page.cc:993
 msgid "Trigger Slot %1/%2"
 msgstr "Déclencher l'emplacement %1/%2"
 
-#: trigger_page.cc:999 trigger_page.cc:1000
+#: trigger_page.cc:998 trigger_page.cc:999
 msgid "Stop Cues %1"
 msgstr "Arreter les Cues %1"
 
-#: trigger_page.cc:1003
+#: trigger_page.cc:1002
 msgid "Stop all cues now"
 msgstr "Arreter toutes les Cues maintenant"
 
-#: trigger_page.cc:1004
+#: trigger_page.cc:1003
 msgid "Stop all cues soon"
 msgstr "Arreter toutes les Cues bientôt"
 
