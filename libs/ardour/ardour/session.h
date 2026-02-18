@@ -768,7 +768,7 @@ public:
 
 	/* fundamental operations. duh. */
 
-	std::list<std::shared_ptr<AudioTrack> > new_audio_track (
+	AudioTrackList new_audio_track (
 		int input_channels,
 		int output_channels,
 		std::shared_ptr<RouteGroup> route_group,
@@ -784,7 +784,7 @@ public:
 	 * useful for speeding up imports of various kinds that involve lots of tracks */
 	bool new_audio_routes_tracks_bulk (
 		RouteList& routes,
-		std::list<std::shared_ptr<AudioTrack> >& tracks,
+		AudioTrackList& tracks,
 		int input_channels,
 		int output_channels,
 		std::shared_ptr<RouteGroup> route_group,
@@ -812,6 +812,8 @@ public:
 
 	void remove_routes (std::shared_ptr<RouteList>);
 	void remove_route (std::shared_ptr<Route>);
+
+	void add_routes (RouteList&, bool input_auto_connect, bool output_auto_connect, PresentationInfo::order_t);
 
 	void resort_routes ();
 
@@ -1970,7 +1972,6 @@ private:
 
 	SerializedRCUManager<RouteList>  routes;
 
-	void add_routes (RouteList&, bool input_auto_connect, bool output_auto_connect, PresentationInfo::order_t);
 	void add_routes_inner (RouteList&, bool input_auto_connect, bool output_auto_connect, PresentationInfo::order_t);
 	bool _adding_routes_in_progress;
 	bool _reconnecting_routes_in_progress;
